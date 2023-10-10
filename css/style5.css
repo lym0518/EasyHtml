@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 5em;
+    background-image: url(../img/pageOne/background.jpg);
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+
+a:hover {
+    color: #65cef7;
+}
+
+.person {
+    margin-top: 15px;
+    display: flex;
+    font-size: 13px;
+    position: absolute;
+    color: #c9cbd0;
+    right: 4.5em;
+    top: 2em;
+}
+
+
+#sv {
+    fill: #e3e3e3;
+    right: 0;
+    padding: 0.5em;
+    margin: 0.5em 1em 0 5em;
+    width: 3em;
+    height: 3em;
+}
+
+nav {
+    right: 3em;
+    height: 90%;
+    position: absolute;
+    z-index: 1;
+}
+
+.navContent {
+    position: relative;
+    margin-top: 5vh;
+}
+
+.navMenu {
+    width: 4em;
+    font-family: "SansRegular";
+    font-size: 1em;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.navMenu>li>a {
+    text-align: -webkit-match-parent;
+    font-family: "SansRegular";
+    font-size: 1rem;
+}
+
+.navMenu>li {
+    padding: 3em 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-family: "SansRegular";
+    font-size: 1rem;
+}
+
+section {
+    height: 70vh;
+}
+
+.message {
+    width: 40vw;
+    height: 50vh;
+    margin-left: 25%;
+    margin-top: 70px;
+}
+
+.message legend {
+    text-align: center;
+
+}
+
+.message fieldset {
+    text-align: center;
+    line-height: 15vh;
+
+}
+
+#sub {
+    width: 100px;
+}
+
+#title {
+    width: 250px;
+}

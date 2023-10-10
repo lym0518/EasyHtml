@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 5em;
+    background-image: url(../img/pageOne/background.jpg);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+
+a:hover {
+    color: #65cef7;
+}
+
+.person {
+    margin-top: 15px;
+    display: flex;
+    font-size: 13px;
+    position: absolute;
+    color: #c9cbd0;
+    right: 4.5em;
+    top: 2em;
+}
+
+.person div {
+    margin-right: 3em;
+    margin-top: 10px;
+}
+
+.person div span {
+    margin: 0 0.5em;
+}
+
+#sv {
+    fill: #e3e3e3;
+    right: 0;
+    padding: 0.5em;
+    margin: 0.5em 1em 0 5em;
+    width: 3em;
+    height: 3em;
+}
+
+nav {
+    right: 3em;
+    height: 90%;
+    position: absolute;
+    z-index: 1;
+}
+
+.navContent {
+    position: relative;
+    margin-top: 15vh;
+}
+
+.navMenu {
+    width: 4em;
+    font-family: "SansRegular";
+    font-size: 1em;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.navMenu>li>a {
+    text-align: -webkit-match-parent;
+    font-family: "SansRegular";
+    font-size: 1rem;
+}
+
+.navMenu>li {
+    padding: 2.8rem 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-family: "SansRegular";
+    font-size: 1rem;
+}
+
+.one {
+    position: absolute;
+    padding-top: 150px;
+    margin-left: 15vw;
+    z-index: 1;
+}
+
+.two {
+    position: absolute;
+    padding-top: 150px;
+    margin-left: 50vw;
+    z-index: 0;
+}
+
+.one img {
+    width: 300px;
+}
+
+#text1 {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+#text1 h3 {
+    margin-bottom: 30px;
+}
+
+#text1 a {
+    margin-top: 40px;
+    border: #fff solid 1px;
+    text-align: center;
+    padding: 10px 100px;
+    width: 80%;
+    height: 50px;
+}
+
+#text1 a:hover {
+    background-color: #65cef7;
+    color: #000000;
+}
+
+.two img {
+    width: 300px;
+}
+
+#text2 {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+#text2 h3 {
+    margin-bottom: 30px;
+}
+
+#text2 a {
+    border: #fff solid 1px;
+    text-align: center;
+    padding: 10px 100px;
+    width: 80%;
+    height: 50px;
+}
+
+#text2 a:hover {
+    background-color: #65cef7;
+    color: #000000;
+}
